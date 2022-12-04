@@ -1,0 +1,52 @@
+.navigation-bar{
+    background-color: rgb(154, 239, 148);
+    padding: 1rem 2rem;
+}    
+
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */
+}
+
+/* .navigation-brand{
+    display: flex;
+    flex-direction: row;
+} */
+
+
+.navigation-brand a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(39, 11, 11);
+    text-decoration: none;
+    font-family: cursive;
+}
+/* .navigation-brand a:hover{
+    font-size: 2 rem;
+    font-weight: 800;
+    color: rgb(24, 6, 6);
+    text-decoration: none;
+} */
+
+.navigation-signup{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+.navigation-signup a{
+    text-decoration:none;
+    color: rgb(40,15,15);
+    font-size: 1rem;
+
+}
+
+
+.navigation-signup a:hover{
+    font-size: 1.5 rem;
+    font-weight: 800;
+    color: rgb(24, 6, 6);
+    text-decoration: none;
+}
