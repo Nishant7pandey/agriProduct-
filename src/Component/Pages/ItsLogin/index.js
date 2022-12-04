@@ -1,10 +1,8 @@
-import { findByLabelText } from '@testing-library/react';
-import React,{useState,useContext,useEffect} from 'react';
+import React from 'react';
 import myContext from "../../../context"
 import "./styles.css"
 const ItsLogin = ({name,setRequest}) => {
     // const[request,setRequest]=useState(false)
-    const auth = useContext(myContext);
     const logout =(e)=>{
         
         e.preventDefault();
