@@ -4,9 +4,9 @@ import "./styles.css"
 const Tabs = ({ data }) => {
   const style = {
     display: "flex",
-    justifyContent: "space-between",
+    justifyContent: "center",
     alignItems: "center",
-    gap: "1rem",
+    gap: "2rem",
     flexWrap: "wrap",
     margin: "1rem 2rem",
   };
